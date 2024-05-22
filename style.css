@@ -1,0 +1,422 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.responsive-bar{
+    display: none;
+}
+nav{
+    width: 100%;
+    /*position: fixed;*/
+    top:65px;
+    left:0;
+    height: 50px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    transition: .5s;
+   background: #0e385d;
+   
+ 
+
+}
+nav.black{
+    background: #0e385d;
+    height: 50px;
+   /* padding: 10px 50px;*/
+    top: 0;
+}
+nav .logo{
+    float: left;
+}
+nav .logo img{
+    height: 80px;
+    transition: .5s;
+    
+
+}
+nav.black .logo img{
+    height: 60px;
+
+}
+nav > ul{
+    width: 85%;
+    margin: 0 auto;
+  
+    padding-top:0px;
+   
+ 
+
+    
+}
+nav > ul > li{
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+nav > ul > li > a:hover{
+   
+    color: #2ab360;
+   
+}
+nav > ul > li > a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase; 
+    line-height: 20px;
+    padding: 2px 15px;  
+    transition: .5s;
+
+
+
+}
+nav.black > ul > li > a{
+    color: #fff;
+    line-height: 20px;
+    top:0;
+
+}
+section.sec1{
+    background: #000;
+    width: 100%;
+    height:0vh;
+   
+   
+  
+
+}
+.frt{ 
+    text-decoration: none;
+        font-weight: 800;
+    color: #292928;
+    font-family: inherit;
+    font-size: 20px;
+ }
+ .frt:hover{
+   color: #21b360; 
+ }
+ .rrt{
+    color: #9d9d9d;
+ }
+ .rrt:hover{
+    color: #21b360;
+ }
+.btn1{
+  color: #fff;
+  background: #fca22a;
+  border-radius: 50px;
+  border:0px;
+  font-size: 22px;
+  font-weight: 700; 
+  margin-top: 5%; 
+}
+.btn1:hover{
+color: #fff;
+background: #21b360;
+}
+.btn7{
+  color: #fff;
+background-color: #0e385d;
+  border-radius: 50px;
+  border:0px;
+  font-size: 18px;
+  font-weight: 700; 
+  margin-top: 5%;
+
+}
+
+.btn7:hover{
+color: #fff;
+background: #21b360;
+}
+.btn5{
+    background:#FCA22A;
+    border-radius:5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 45px;
+    text-decoration: none;
+}
+.btn5:hover{
+    background: #21b360;
+}
+.btn8{
+  color: #fff;
+background-color: #FCA22A;
+  border-radius: 5px;
+  border:0px;
+  font-size: 18px;
+  font-weight: 700; 
+  margin-top: 5%;
+
+}
+.btn8:hover{
+color: #fff;
+background: #21b360;
+}
+.btn2:hover{
+color: #fff;
+background: #21b360;
+}
+.btn2{
+  color: #fff;
+  background: #fca22a;
+  border-radius: 7px;
+  border:0px;
+  font-size: 18px;
+  font-weight: bold; 
+  margin-top: 13%;
+  padding: 13px 45px;
+}
+
+.cc{
+    color: #a5a5a5;
+}
+.tyty{
+    color: #faa61a;
+}
+.tyty:hover{
+    color:#21bf75;
+}
+.xy:hover{
+    transform: scale(1.1);
+}
+.tyi:hover{
+transform: scale(1.1);
+transition-duration: 0.3s;
+transform-style: flat;
+}
+.yyy{
+    color: #21bf75;
+    text-decoration: none;
+}
+.yyy:hover{
+    color:#faa61a;
+}
+.yyy1{
+    color:#a5a5a5;
+}
+.yyy1:hover{
+    color: #faa61a;
+
+}
+.tty{
+        
+    background-color: #000;
+   
+}
+.tty:hover{
+    background-color: #faa61a;
+   
+}
+.oo{
+    text-decoration: none; color: #000;padding-right:10px;
+}
+.oo:hover{
+    color:#f78600;
+}
+.mll{
+    color: #f78600;
+}
+.mll:hover{
+    color:#FFBF00;
+}
+.gh:hover{
+    color:#F78600;
+  
+}
+.pl{
+    color: #f78600;
+}
+.pl:hover{
+    background: #f78600;
+    color: #fff;
+}
+.plk{
+    color: #666367;
+}
+.plk:hover{
+   
+    color: #f78600;
+}
+.plp{
+    text-decoration: none; 
+    font-size:15px;
+      border:1px solid #fa9e1b;
+      color: #fff;
+
+}
+.plp:hover{
+    background: #f78600;
+    color: #fff;
+}
+.jkl{
+    color: #000;
+
+}
+.jkl:hover{
+    color:#fff;
+    background:#fa9e1b;
+    border-radius: 25px;
+}
+.plv{
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+.plv:hover{
+   
+    text-decoration: underline;
+}
+.plv2{
+    font-size: 17px;
+    font-weight: ;
+    color: #fff;
+}
+
+.plv1{
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+.plv1:hover{
+    color: #fa9e1b;
+    
+}
+.plo{
+    color: #2d2c2c;
+}
+.plo:hover{
+    color: #fa9e1b;
+}
+.yu:hover{
+    background: #f5f5f5;
+}
+@media(max-width:768px){
+    .responsive-bar{
+        display: block;
+        width: 100%;
+        height: 60px;
+        background: #0e385d;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 5px 20px;
+        box-sizing: border-box;
+        z-index: 1;
+    }
+    .responsive-bar .logo img{
+        float: left;
+        height: 50px;  
+    }
+    .responsive-bar .menu h4{
+        float: right;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        line-height: 50px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    nav{
+        padding: 0;
+    }
+    nav,
+    nav.black{
+    background: #000;
+    height: 60px;
+    padding: 0;
+    }
+    nav .logo{
+        display: none;
+    }
+    nav ul{
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        background: #fff;
+        float: none;
+        display: none;
+    }
+    nav ul.active{
+        display: block;
+    }
+    nav ul li{
+        width: 100%;
+    }
+    nav ul li a{
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        line-height: 30px !important;
+        color: #000;
+        
+    }
+
+    nav > ul{
+        width: 100%;
+        display: none;
+    }
+    nav > ul > li{
+        display: block;
+        text-align: center;
+    }
+    .tyty{
+        display: none;
+    }
+    .active{
+        display: block;
+    }
+    .xyz{
+        opacity: 0;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.slick-slide{
+    margin: 0 20px;
+}
+.slick-slide img{
+    width: 100%;
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img{
+    display: block;
+    height: 50px;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.copy{
+    padding-top: 250px;
+}
